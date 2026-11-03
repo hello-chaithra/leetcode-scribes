@@ -5,18 +5,13 @@ Instead of listing problems by number, related problems are grouped into one top
  
 ## How each entry is written
 Every problem follows the same template:
-1. **Title**
-2. **LeetCode number**
-3. **Data structure and algorithm**
-4. **Concept and complexity** (time and space, plus alternatives and tradeoffs)
-5. **Solution**
-Each topic folder also ends with an **Application** problem, such as a SQL version, where the same pattern shows up in a real-world setting.
- 
+1. **LeetCode number and Title**
+2. **Data structure and algorithm**
+3. **Concept and complexity** (time and space, plus alternatives and tradeoffs)
+4. **Solution**
+
 ## Topics
  
-| Topic | Problems | Core tools |
-|---|---|---|
-| [Contains Duplicates](./contains-duplicates) | 217, 219, 220, 182 | hash set, sliding window, ordered set, bucketing |
-
-## Languages
-C++ for most problems, SQL for database problems.
+| Topic | Problems | Core tools | Languages |
+|---|---|---|---| 
+| [Contains Duplicates](./contains-duplicates) | 217, 219, 220, 182 | hash set, sliding window, ordered set, bucketing | C++, SQL |
