@@ -18,5 +18,3 @@ bool containsDuplicate(vector<int>& nums) {
     return false;
 }
 ```
-
-insert returns a pair<iterator,bool>, and the bool is false if the element already existed. That saves a separate lookup.
